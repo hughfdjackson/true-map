@@ -1,5 +1,6 @@
 {
   "name": "true-map",
+  "description": "A string:val map that works for all keynames - including __proto__",
   "version": "0.1.0",
   "main": "src/true-map.js",
   "scripts": {
