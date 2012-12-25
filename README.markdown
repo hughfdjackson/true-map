@@ -89,4 +89,4 @@ Where the attributes themselves are stored, with the keys prefixed with '$' to e
 
 ## Install 
 
-`npm install true-map` or [download](https://raw.github.com/hughfdjackson/tap/master/tap.js) Creates a CommonJS module if available, otherwise exports a global named `tap`.
+`npm install true-map` or [download](https://raw.github.com/hughfdjackson/tap/master/tap.js) Creates a CommonJS module if available, otherwise exports a global named `trueMap`.

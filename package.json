@@ -1,7 +1,7 @@
 {
   "name": "true-map",
   "description": "A string:val map that works for all keynames - including __proto__",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "src/true-map.js",
   "scripts": {
     "test": "mocha --ui qunit"

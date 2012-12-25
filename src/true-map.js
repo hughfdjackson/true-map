@@ -27,6 +27,6 @@ void function(root){
     }
 
     if ( typeof module == 'object' && module.exports ) module.exports = map
-    else                                               root['map'] = map
+    else                                               root['trueMap'] = map
 
 }(this)
