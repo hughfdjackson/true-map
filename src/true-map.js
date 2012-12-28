@@ -26,6 +26,9 @@ void function(root){
         }
     }
 
+    // alias remove
+    map.prototype['delete'] = map.prototype.remove
+
     if ( typeof module == 'object' && module.exports ) module.exports = map
     else                                               root['trueMap'] = map
 

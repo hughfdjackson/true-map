@@ -69,9 +69,9 @@ o.has('x') //= true
 o.has('z') //= false
 ```
 
-### .remove(String)
+### .remove(String) `alias: .delete(String)`
 
-Removes an attribute - same as delete, but it returns the map itself to allow chaining (there are no non-deletable attributes, so returning `true` or `false` is unnecessary)
+Removes an attribute - same as the `delete` keyword, but it returns the map itself to allow chaining (there are no non-deletable attributes, so returning `true` or `false` is unnecessary)
 
 ```
 var o = map({ 

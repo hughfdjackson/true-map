@@ -88,6 +88,10 @@ test('map.remove returns `this`', function(){
     var o = map()
 
     o.set('foo', 'bar')
-
     a.equal(o.remove('foo').remove('pretend'), o)
+})
+
+test('map.delete is an alias of map.remove', function(){
+    var o = map()
+    a.equal(o['delete'], o.remove)
 })
